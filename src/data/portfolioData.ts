@@ -15,311 +15,153 @@ export const CATEGORIES: CategoryInfo[] = [
     arabicTitle: 'الهوية البصرية',
     iconName: 'palette',
     description: 'Complete brand identities, style guidelines, color systems, typography systems, and stationery.',
-    itemCount: 9
+    itemCount: 0
   }
 ];
 
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
-  // Brand Identity Projects (9 Projects with user's direct ImgBB images)
+  // Logo Design Projects (10 Projects with user's direct ImgBB images)
   {
     id: 'br-3',
-    categoryId: 'brand-identity',
-    title: 'Al-Qimma Financial Advisory Visual Identity',
-    titleArabic: 'الهوية البصرية الشاملة لشركة القمة للاستشارات الماليّة',
+    categoryId: 'logo-design',
+    title: 'Al-Qimma Financial Advisory Logo & Monogram',
+    titleArabic: 'تصميم شعار وبصمة شركة القمة للاستشارات الماليّة',
     client: 'Al-Qimma Advisory - Riyadh',
     year: '2026',
-    description: 'نظام هوية بصرية متكامل للقطاع المالي والاستثماري يتضمن دليل الهوية المعتمد، بطاقات الأعمال الفاخرة، الأوراق الرسمية، والقوالب الرقمية.',
+    description: 'تصميم شعار احترافي ومبتكر للقطاع المالي والاستثماري يتضمن الرمز والشعار اللفظي والتايبوجرافي المعتمد.',
     coverImage: 'https://i.ibb.co/0RGF98sz/Picsart-26-07-20-12-25-25-829.jpg',
     galleryImages: ['https://i.ibb.co/0RGF98sz/Picsart-26-07-20-12-25-25-829.jpg'],
-    tags: ['هوية بصرية', 'دليل الماركة', 'مطبوعات فاخرة', 'Corporate Identity'],
-    toolsUsed: ['Adobe Illustrator', 'Adobe InDesign', 'Photoshop'],
-    deliverables: ['دليل الهوية البصرية PDF', 'قرطاسية المكاتب والأوراق الرسمية', 'بطاقات الأعمال الراقية'],
+    tags: ['تصميم شعار', 'لوجو احترافي', 'Corporate Logo', 'Monogram'],
+    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
+    deliverables: ['ملفات الشعار الملموسة Vector', 'دليل الاستخدام والشعار بألوانه'],
     featured: true
   },
   {
     id: 'br-5',
-    categoryId: 'brand-identity',
-    title: 'Aseel Specialty Coffee Roastery Identity & Packaging',
-    titleArabic: 'هوية وتغليف محمصة قهوة أصيل المختصة',
+    categoryId: 'logo-design',
+    title: 'Aseel Specialty Coffee Roastery Logomark',
+    titleArabic: 'شعار وبصمة محمصة قهوة أصيل المختصة',
     client: 'Aseel Coffee Roasters - Khobar',
     year: '2025',
-    description: 'هوية بصرية معاصرة لمحمصة قهوة مختصة تجمع بين الخط العربي الحديث والألوان الترابية الدافئة مع أكياس التغليف المطبوعة والأكواب.',
+    description: 'شعار معاصر لمحمصة قهوة مختصة يدمج بين الخط العربي الحديث والشكل الرمزي الأنيق.',
     coverImage: 'https://i.ibb.co/Y4hq47ZT/Picsart-26-07-20-12-25-02-050.jpg',
     galleryImages: ['https://i.ibb.co/Y4hq47ZT/Picsart-26-07-20-12-25-02-050.jpg'],
-    tags: ['هوية مقهى', 'تغليف أكياس القهوة', 'تايبوجرافي عربي', 'Packaging'],
+    tags: ['شعار مقهى', 'تايبوجرافي عربي', 'Logo Emblem'],
     toolsUsed: ['Adobe Illustrator', 'Adobe Photoshop'],
-    deliverables: ['تغليف أكياس القهوة 250g/1kg', 'أكواب القهوة والمطبوعات', 'دليل الألوان والخطوط']
+    deliverables: ['ملفات الشعار العالية الجودة (AI, EPS, SVG, PNG)']
   },
   {
     id: 'br-1',
-    categoryId: 'brand-identity',
-    title: 'Solstice Botanicals Brand Identity System',
-    titleArabic: 'الهوية البصرية والدليل الإرشادي الموحد',
+    categoryId: 'logo-design',
+    title: 'Solstice Botanicals Logo Design',
+    titleArabic: 'شعار ولوجو سولستيس الطبيعية',
     client: 'Solstice Botanicals',
     year: '2026',
-    description: 'دليل الهوية البصرية الشامل الذي يحدد نظام الألوان، التايبوجرافي، استخدامات اللوجو، المطبوعات، والشعار اللفظي للبراند.',
+    description: 'شعار ناعم وأنيق يجمع بين الرمزية العضوية والخطوط الحديثة النظيفة.',
     coverImage: 'https://i.ibb.co/d4CVwrNp/Picsart-26-07-19-14-45-06-681.jpg',
     galleryImages: ['https://i.ibb.co/d4CVwrNp/Picsart-26-07-19-14-45-06-681.jpg'],
-    tags: ['Brand Identity', 'Packaging Guidelines', 'Stationery'],
-    toolsUsed: ['Adobe Illustrator', 'Adobe Photoshop', 'Figma'],
-    deliverables: ['Brand Identity Manual', 'Stationery Kit', 'Brand Book PDF'],
+    tags: ['Logo Design', 'Minimalist Emblem', 'Vector Mark'],
+    toolsUsed: ['Adobe Illustrator', 'Adobe Photoshop'],
+    deliverables: ['الشعار بكافة صيغه الأساسية والرمزية'],
     featured: true
   },
   {
     id: 'br-7',
-    categoryId: 'brand-identity',
-    title: 'Rawafed Innovation Hub Visual Identity & Brand Manual',
-    titleArabic: 'هوية ودليل ماركة مركز روافد للابتكار والتقنية',
+    categoryId: 'logo-design',
+    title: 'Rawafed Innovation Hub Tech Logomark',
+    titleArabic: 'شعار مركز روافد للابتكار والتقنية',
     client: 'Rawafed Innovation Hub - Dubai',
     year: '2026',
-    description: 'هوية تقنية مبتكرة بحس مستقبلي عالي الجودة تشمل الدليل البصري، الـ Pitch Decks، وقوالب السوشيال ميديا والعروض التقديمية.',
+    description: 'شعار تقني مبتكر بحس مستقبلي عالي الجودة يعبر عن الابداع والتطوير.',
     coverImage: 'https://i.ibb.co/fYz3ShdS/Picsart-26-07-19-14-49-27-932.jpg',
     galleryImages: ['https://i.ibb.co/fYz3ShdS/Picsart-26-07-19-14-49-27-932.jpg'],
-    tags: ['هوية تقنية', 'مركز ابتكار', 'قوالب العروض', 'Tech Identity'],
-    toolsUsed: ['Adobe Illustrator', 'Figma', 'Photoshop'],
-    deliverables: ['Brand Manual PDF', 'Pitch Deck Template', 'قوالب السوشيال ميديا الموحدة']
+    tags: ['شعار تقني', 'لوجو مبتكر', 'Tech Monogram'],
+    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
+    deliverables: ['ملفات الشعار العالية الجودة']
   },
   {
     id: 'br-8',
-    categoryId: 'brand-identity',
-    title: 'Diwaniyah Oriental Lounge Restaurant Branding',
-    titleArabic: 'الهوية البصرية وقوائم الطعام لديوانية العود الفاخرة',
+    categoryId: 'logo-design',
+    title: 'Diwaniyah Oriental Lounge Restaurant Logo',
+    titleArabic: 'شعار ديوانية العود الفاخرة',
     client: 'Diwaniyah Group - Abu Dhabi',
     year: '2025',
-    description: 'تصميم هوية فاخرة تعبر عن الضيافة العربية الكلاسيكية، تشمل تصميم قوائم الطعام المذهبة، علب العود والبخور المقدمة للضيوف، والمطبوعات.',
+    description: 'تصميم شعار فاخر يعبر عن الأصالة والضيافة العربية الشرقية الكلاسيكية.',
     coverImage: 'https://i.ibb.co/99bbTwnV/Picsart-26-07-19-14-37-04-333.jpg',
     galleryImages: ['https://i.ibb.co/99bbTwnV/Picsart-26-07-19-14-37-04-333.jpg'],
-    tags: ['هوية مطاعم', 'قوائم طعام', 'تغليف فاخر', 'Restaurant Branding'],
-    toolsUsed: ['Adobe Illustrator', 'Adobe InDesign', 'Photoshop'],
-    deliverables: ['قوائم الطعام والمنيو الجلدية المذهبة', 'تغليف الهدايا الخاصة', 'قرطاسية وأدوات الطاولة']
+    tags: ['شعار فاخر', 'خط عربي', 'لوجو مطاعم'],
+    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
+    deliverables: ['الشعار الذهبي والملفات الفيكتور']
   },
   {
     id: 'br-9',
-    categoryId: 'brand-identity',
-    title: 'Raihan Organic Skincare Packaging & Identity',
-    titleArabic: 'الهوية البصرية وتغليف منتجات ريحان الطبيعية للعناية',
+    categoryId: 'logo-design',
+    title: 'Raihan Organic Skincare Logomark',
+    titleArabic: 'شعار منتجات ريحان الطبيعية',
     client: 'Raihan Botanicals - Muscat',
     year: '2026',
-    description: 'هوية بصرية هادئة وناعمة تعتمد على الخطوط النظيفة والألوان المستوحاة من الطبيعة، مع تصميم زجاجات العناية وأكياس التسوق ودليل الاستخدام.',
+    description: 'شعار راقي وناعم مستوحى من عناصر الطبيعة والأشكال الهندسية الهادئة.',
     coverImage: 'https://i.ibb.co/CphhyJtr/Picsart-26-07-19-14-34-46-689.jpg',
     galleryImages: ['https://i.ibb.co/CphhyJtr/Picsart-26-07-19-14-34-46-689.jpg'],
-    tags: ['تغليف منتجات', 'هوية منتجات طبيعية', 'تصميم العبوات', 'Skincare Packaging'],
-    toolsUsed: ['Adobe Illustrator', 'Photoshop 3D Render'],
-    deliverables: ['تصميم العبوات والزجاجات', 'أكياس وصناديق الشحن', 'Brand Guidelines Sheet']
+    tags: ['شعار منتجات', 'لوجو ناعم', 'Skincare Logo'],
+    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
+    deliverables: ['ملفات الشعار المتجهة Vector']
   },
   {
     id: 'br-4',
-    categoryId: 'brand-identity',
-    title: 'Pearl Beach Luxury Resort Brand Identity',
-    titleArabic: 'الهوية البصرية الشاملة لمنتجع شاطئ اللؤلؤ الفاخر',
+    categoryId: 'logo-design',
+    title: 'Pearl Beach Luxury Resort Emblem',
+    titleArabic: 'شعار منتجع شاطئ اللؤلؤ الفاخر',
     client: 'Pearl Beach Resort & Spa - Jeddah',
     year: '2026',
-    description: 'تطوير هوية بصرية فاخرة تشمل دليل الهوية، المطبوعات الفندقية، لوحة الألوان الذهبية والزرقاء، وعناصر الضيافة للنزلاء.',
+    description: 'تطوير شعار ملكي فاخر يدمج بين رمزية اللؤلؤ وأمواج البحر بأناقة متناهية.',
     coverImage: 'https://i.ibb.co/nNwBg7P0/Picsart-26-07-19-09-31-01-453.jpg',
     galleryImages: ['https://i.ibb.co/nNwBg7P0/Picsart-26-07-19-09-31-01-453.jpg'],
-    tags: ['هوية ضيافة', 'منتجع فاخر', 'دليل الماركة', 'Hospitality Branding'],
+    tags: ['شعار ملكي', 'شعار ضيافة', 'Luxury Emblem'],
     toolsUsed: ['Adobe Illustrator', 'Photoshop'],
-    deliverables: ['Brand Guidelines Manual', 'مطبوعات وأدوات النزلاء', 'بطاقات الضيافة']
+    deliverables: ['الشعار الكامل بكافة درجاته وشاراته']
   },
   {
     id: 'br-6',
-    categoryId: 'brand-identity',
-    title: 'Sanad Corporate Identity & Branding System',
-    titleArabic: 'الهوية البصرية الشاملة لشركة سند اللوجستية',
+    categoryId: 'logo-design',
+    title: 'Sanad Express Logistics Monogram',
+    titleArabic: 'شعار وبصمة شركة سند اللوجستية',
     client: 'Sanad Express Logistics',
     year: '2026',
-    description: 'نظام هوية بصرية معاصر يعبر عن السرعة والموثوقية، يشمل الدليل الإرشادي الموحد، قرطاسية المكاتب، والأوراق الرسمية والتطبيقات الرقمية.',
+    description: 'شعار معاصر وقوي يعبر عن السرعة والموثوقية والربط.',
     coverImage: 'https://i.ibb.co/sZt4NMy/Picsart-26-07-19-09-40-35-974.jpg',
     galleryImages: ['https://i.ibb.co/sZt4NMy/Picsart-26-07-19-09-40-35-974.jpg'],
-    tags: ['هوية شركات', 'دليل الماركة', 'قرطاسية', 'Logistics Branding'],
-    toolsUsed: ['Adobe Illustrator', 'InDesign'],
-    deliverables: ['دليل استخدام العلامة التجارية', 'مستلزمات مكاتب وأوراق رسمية', 'بطاقات العمل والملفات']
+    tags: ['شعار شركات', 'لوجو لوجستي', 'Corporate Monogram'],
+    toolsUsed: ['Adobe Illustrator'],
+    deliverables: ['ملفات الشعار الاحترافية']
   },
   {
     id: 'br-10',
-    categoryId: 'brand-identity',
-    title: 'Modern Creative Studio Visual Identity',
-    titleArabic: 'الهوية البصرية الحديثة للاستوديو الإبداعي',
+    categoryId: 'logo-design',
+    title: 'Modern Creative Studio Logo',
+    titleArabic: 'شعار الاستوديو الإبداعي الحديث',
     client: 'Creative Studio - Cairo',
     year: '2026',
-    description: 'تصميم هوية إبداعية حديثة تعكس الابتكار والبساطة في العرض والتصميم.',
+    description: 'تصميم شعار إبداعي حديث يعكس الابتكار والبساطة والجمال البصري.',
     coverImage: 'https://i.ibb.co/PZSZHCN7/Picsart-26-07-19-09-28-36-275.jpg',
     galleryImages: ['https://i.ibb.co/PZSZHCN7/Picsart-26-07-19-09-28-36-275.jpg'],
-    tags: ['هوية إبداعية', 'تصميم جرافيك', 'استوديو'],
+    tags: ['شعار إبداعي', 'تصميم جرافيك', 'لوجو مودرن'],
     toolsUsed: ['Adobe Illustrator', 'Photoshop'],
-    deliverables: ['دليل الهوية البصرية', 'قوالب التصميم']
+    deliverables: ['ملفات الشعار العالية الجودة']
   },
-  // Logo Design Projects
   {
-    id: 'br-2',
+    id: 'br-11',
     categoryId: 'logo-design',
-    title: 'Al-Madar Real Estate Monogram & Logo',
-    titleArabic: 'شعار ولوجو شركة المدار العقارية',
-    client: 'Al-Madar Properties',
+    title: 'Contemporary Logo & Design Mark',
+    titleArabic: 'الشعار والبصمة المعاصرة للاستوديو الإبداعي',
+    client: 'Lasheen Design Studio',
     year: '2026',
-    description: 'Luxury Arabic calligraphic monogram paired with geometric typography for an upscale property development brand.',
-    coverImage: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200'
-    ],
-    tags: ['Arabic Calligraphy Monogram', 'Luxury Logo', 'Vector Mark'],
-    toolsUsed: ['Adobe Illustrator', 'Calligraphy Vector Tools'],
-    deliverables: ['Calligraphic Logo Mark', 'Vector Files (SVG, EPS, AI)', 'Gold Foil Specs'],
-    featured: true
-  },
-  {
-    id: 'sm-2',
-    categoryId: 'logo-design',
-    title: 'Roast & Co. Calligraphic Logomark',
-    titleArabic: 'شعار وبصمة قهوة مختصة بالخط العربي',
-    client: 'Roast & Co.',
-    year: '2025',
-    description: 'Custom Arabic calligraphy logomark overlay paired with minimalist coffee emblem typography.',
-    coverImage: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=1200'
-    ],
-    tags: ['Logo Emblem', 'Arabic Calligraphy', 'Food & Beverage'],
-    toolsUsed: ['Illustrator', 'Photoshop'],
-    deliverables: ['Primary & Secondary Monogram', 'Icon Stamp']
-  },
-  {
-    id: 'logo-3',
-    categoryId: 'logo-design',
-    title: 'Nour Luxury Perfumes Emblem',
-    titleArabic: 'شعار عطور نور الفاخرة بالخط العربي',
-    client: 'Nour Parfums - Dubai',
-    year: '2026',
-    description: 'An elegant Arabic calligraphy logo mark blending traditional الديواني flourish with a modern perfume bottle silhouette.',
-    coverImage: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&q=80&w=1200'
-    ],
-    tags: ['Arabic Monogram', 'Luxury Fragrance Logo', 'Emblem'],
-    toolsUsed: ['Adobe Illustrator', 'Calligraphy Vectoring'],
-    deliverables: ['Primary Logo Mark', 'Gold Foil Vector Stamp', 'Brand Icon Kit']
-  },
-  {
-    id: 'logo-4',
-    categoryId: 'logo-design',
-    title: 'Al-Ittihad Investment Group Logomark',
-    titleArabic: 'شعار مجموعة الاتحاد الاستثمارية',
-    client: 'Al-Ittihad Holding - Riyadh',
-    year: '2026',
-    description: 'Geometric Arabic Kufic monogram symbolizing structure, growth, and trust in real estate and financial investments.',
-    coverImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=1200'
-    ],
-    tags: ['Kufic Monogram', 'Corporate Logo', 'Geometric Vector'],
-    toolsUsed: ['Adobe Illustrator', 'Grid Vector System'],
-    deliverables: ['Vector Logo Formats (AI, EPS, SVG)', 'Horizontal & Vertical Lockups']
-  },
-  {
-    id: 'logo-5',
-    categoryId: 'logo-design',
-    title: 'Bait Al-Oud Music Academy Logo',
-    titleArabic: 'شعار أكاديمية بيت العود الموسيقية',
-    client: 'Bait Al-Oud Cultural Center',
-    year: '2025',
-    description: 'Artistic fusion of an Oud instrument body curves with fluid Arabic الثلث calligraphy forming an iconic musical emblem.',
-    coverImage: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&q=80&w=1200'
-    ],
-    tags: ['Calligraphic Emblem', 'Cultural Logo', 'Artistic Mark'],
-    toolsUsed: ['Hand Calligraphy Sketching', 'Adobe Illustrator'],
-    deliverables: ['Custom Vector Logo', 'Monochrome & Color Variations']
-  },
-  {
-    id: 'logo-6',
-    categoryId: 'logo-design',
-    title: 'Apex Tech Solutions Monogram',
-    titleArabic: 'شعار آبيكس للحلول التقنية والبرمجية',
-    client: 'Apex Global Tech',
-    year: '2026',
-    description: 'Sleek, futuristic monogram combining letterforms with network node accents for a cutting-edge software company.',
-    coverImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1200'
-    ],
-    tags: ['Minimalist Logo', 'Tech Monogram', 'Dark Theme Vector'],
-    toolsUsed: ['Adobe Illustrator'],
-    deliverables: ['App Icon Vectors', 'Logo Grid Sheet', 'SVG Animated Logo']
-  },
-  {
-    id: 'logo-7',
-    categoryId: 'logo-design',
-    title: 'Waha Desert Resort & Spa Logomark',
-    titleArabic: 'شعار منتجع الواحة الصحراوي والسبا',
-    client: 'Waha Hospitality - AlUla',
-    year: '2025',
-    description: 'Organic desert dune contour lines transformed into a luxurious Arabic floral monogram for an eco-resort in AlUla.',
-    coverImage: 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=1200'
-    ],
-    tags: ['Hospitality Logo', 'Organic Emblem', 'Gold Monogram'],
-    toolsUsed: ['Adobe Illustrator', 'Procreate'],
-    deliverables: ['Primary & Secondary Logos', 'Signage Vector Standards']
-  },
-  {
-    id: 'logo-8',
-    categoryId: 'logo-design',
-    title: 'Saffron Specialty Restaurant Stamp',
-    titleArabic: 'شعار وختم مطعم زعفران الشرقي',
-    client: 'Saffron Dining Group',
-    year: '2026',
-    description: 'Handcrafted stamp-style emblem blending saffron flower petal curves with Arabic typography.',
-    coverImage: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1200'
-    ],
-    tags: ['Restaurant Emblem', 'Stamp Logo', 'Culinary Mark'],
-    toolsUsed: ['Adobe Illustrator', 'Adobe Photoshop'],
-    deliverables: ['Packaging Stamp Design', 'Menu Header Logo']
-  },
-  {
-    id: 'logo-9',
-    categoryId: 'logo-design',
-    title: 'Horizon Aviation & Logistics Logo',
-    titleArabic: 'شعار أفق للطيران والخدمات اللوجستية',
-    client: 'Horizon Air Cargo',
-    year: '2025',
-    description: 'Dynamic aerodynamic wing emblem combined with geometric Arabic lettering for an international logistics firm.',
-    coverImage: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&q=80&w=1200'
-    ],
-    tags: ['Aviation Logo', 'Dynamic Symbol', 'Corporate Vector'],
-    toolsUsed: ['Adobe Illustrator'],
-    deliverables: ['Livery Vector Logo', 'Corporate Identity Emblem']
-  },
-  {
-    id: 'logo-10',
-    categoryId: 'logo-design',
-    title: 'Sarmad Fine Jewelry Calligraphic Seal',
-    titleArabic: 'شعار وختم مجوهرات سرمد الفاخرة',
-    client: 'Sarmad Jewelry House - Kuwait',
-    year: '2026',
-    description: 'Diamond-shaped calligraphic monogram handcrafted in gold vector curves representing eternal elegance.',
-    coverImage: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=1200'
-    ],
-    tags: ['Jewelry Monogram', 'Gold Seal', 'Arabic Calligraphy Logo'],
-    toolsUsed: ['Adobe Illustrator', 'Vector Precision Grid'],
-    deliverables: ['Embossing Stamp Vector', 'Luxury Packaging Logo']
+    description: 'تصميم شعار متميز يعكس الفخامة والاحترافية واللمسة الفنية المبدعة.',
+    coverImage: 'https://i.ibb.co/PvBFR4kw/Picsart-26-07-27-13-09-57-596.jpg',
+    galleryImages: ['https://i.ibb.co/PvBFR4kw/Picsart-26-07-27-13-09-57-596.jpg'],
+    tags: ['تصميم شعار', 'بصمة إبداعية', 'لوجو احترافي'],
+    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
+    deliverables: ['ملفات الشعار وتطبيقاته']
   }
 ];
 
