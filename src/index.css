@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-arabic-ruqaa {
+    font-family: 'Aref Ruqaa', 'Amiri', 'El Messiri', serif;
+  }
+  .font-arabic-amiri {
+    font-family: 'Amiri', 'Aref Ruqaa', serif;
+  }
+  .font-serif-display {
+    font-family: 'Bodoni Moda', 'Playfair Display', 'Cinzel', serif;
+  }
+  .font-serif-playfair {
+    font-family: 'Playfair Display', 'Bodoni Moda', serif;
+  }
+  .font-sans-montserrat {
+    font-family: 'Montserrat', 'Plus Jakarta Sans', sans-serif;
+  }
+  .font-arabic-standard {
+    font-family: 'Tajawal', 'Montserrat', system-ui, sans-serif;
+  }
+}
+
+/* Custom scrollbar styling for seamless mobile/desktop experience */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0c0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* Glassmorphism card helpers matching video style */
+.glass-card {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card-hover:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.18);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+.glass-pill-button {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Background glow effects */
+.bg-vignette {
+  background: radial-gradient(circle at center, rgba(15, 17, 23, 0.5) 0%, rgba(10, 11, 14, 0.95) 100%);
+}
+
