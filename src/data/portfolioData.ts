@@ -15,12 +15,12 @@ export const CATEGORIES: CategoryInfo[] = [
     arabicTitle: 'الهوية البصرية',
     iconName: 'palette',
     description: 'Complete brand identities, style guidelines, color systems, typography systems, and stationery.',
-    itemCount: 8
+    itemCount: 9
   }
 ];
 
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
-  // Brand Identity Projects
+  // Brand Identity Projects (9 Projects with user's direct ImgBB images)
   {
     id: 'br-3',
     categoryId: 'brand-identity',
@@ -29,12 +29,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     client: 'Al-Qimma Advisory - Riyadh',
     year: '2026',
     description: 'نظام هوية بصرية متكامل للقطاع المالي والاستثماري يتضمن دليل الهوية المعتمد، بطاقات الأعمال الفاخرة، الأوراق الرسمية، والقوالب الرقمية.',
-    coverImage: 'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=1200'
-    ],
+    coverImage: 'https://i.ibb.co/0RGF98sz/Picsart-26-07-20-12-25-25-829.jpg',
+    galleryImages: ['https://i.ibb.co/0RGF98sz/Picsart-26-07-20-12-25-25-829.jpg'],
     tags: ['هوية بصرية', 'دليل الماركة', 'مطبوعات فاخرة', 'Corporate Identity'],
     toolsUsed: ['Adobe Illustrator', 'Adobe InDesign', 'Photoshop'],
     deliverables: ['دليل الهوية البصرية PDF', 'قرطاسية المكاتب والأوراق الرسمية', 'بطاقات الأعمال الراقية'],
@@ -48,12 +44,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     client: 'Aseel Coffee Roasters - Khobar',
     year: '2025',
     description: 'هوية بصرية معاصرة لمحمصة قهوة مختصة تجمع بين الخط العربي الحديث والألوان الترابية الدافئة مع أكياس التغليف المطبوعة والأكواب.',
-    coverImage: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=1200'
-    ],
+    coverImage: 'https://i.ibb.co/Y4hq47ZT/Picsart-26-07-20-12-25-02-050.jpg',
+    galleryImages: ['https://i.ibb.co/Y4hq47ZT/Picsart-26-07-20-12-25-02-050.jpg'],
     tags: ['هوية مقهى', 'تغليف أكياس القهوة', 'تايبوجرافي عربي', 'Packaging'],
     toolsUsed: ['Adobe Illustrator', 'Adobe Photoshop'],
     deliverables: ['تغليف أكياس القهوة 250g/1kg', 'أكواب القهوة والمطبوعات', 'دليل الألوان والخطوط']
@@ -66,12 +58,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     client: 'Solstice Botanicals',
     year: '2026',
     description: 'دليل الهوية البصرية الشامل الذي يحدد نظام الألوان، التايبوجرافي، استخدامات اللوجو، المطبوعات، والشعار اللفظي للبراند.',
-    coverImage: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&q=80&w=1200'
-    ],
+    coverImage: 'https://i.ibb.co/d4CVwrNp/Picsart-26-07-19-14-45-06-681.jpg',
+    galleryImages: ['https://i.ibb.co/d4CVwrNp/Picsart-26-07-19-14-45-06-681.jpg'],
     tags: ['Brand Identity', 'Packaging Guidelines', 'Stationery'],
     toolsUsed: ['Adobe Illustrator', 'Adobe Photoshop', 'Figma'],
     deliverables: ['Brand Identity Manual', 'Stationery Kit', 'Brand Book PDF'],
@@ -85,12 +73,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     client: 'Rawafed Innovation Hub - Dubai',
     year: '2026',
     description: 'هوية تقنية مبتكرة بحس مستقبلي عالي الجودة تشمل الدليل البصري، الـ Pitch Decks، وقوالب السوشيال ميديا والعروض التقديمية.',
-    coverImage: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=1200'
-    ],
+    coverImage: 'https://i.ibb.co/fYz3ShdS/Picsart-26-07-19-14-49-27-932.jpg',
+    galleryImages: ['https://i.ibb.co/fYz3ShdS/Picsart-26-07-19-14-49-27-932.jpg'],
     tags: ['هوية تقنية', 'مركز ابتكار', 'قوالب العروض', 'Tech Identity'],
     toolsUsed: ['Adobe Illustrator', 'Figma', 'Photoshop'],
     deliverables: ['Brand Manual PDF', 'Pitch Deck Template', 'قوالب السوشيال ميديا الموحدة']
@@ -103,12 +87,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     client: 'Diwaniyah Group - Abu Dhabi',
     year: '2025',
     description: 'تصميم هوية فاخرة تعبر عن الضيافة العربية الكلاسيكية، تشمل تصميم قوائم الطعام المذهبة، علب العود والبخور المقدمة للضيوف، والمطبوعات.',
-    coverImage: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=1200'
-    ],
+    coverImage: 'https://i.ibb.co/99bbTwnV/Picsart-26-07-19-14-37-04-333.jpg',
+    galleryImages: ['https://i.ibb.co/99bbTwnV/Picsart-26-07-19-14-37-04-333.jpg'],
     tags: ['هوية مطاعم', 'قوائم طعام', 'تغليف فاخر', 'Restaurant Branding'],
     toolsUsed: ['Adobe Illustrator', 'Adobe InDesign', 'Photoshop'],
     deliverables: ['قوائم الطعام والمنيو الجلدية المذهبة', 'تغليف الهدايا الخاصة', 'قرطاسية وأدوات الطاولة']
@@ -121,12 +101,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     client: 'Raihan Botanicals - Muscat',
     year: '2026',
     description: 'هوية بصرية هادئة وناعمة تعتمد على الخطوط النظيفة والألوان المستوحاة من الطبيعة، مع تصميم زجاجات العناية وأكياس التسوق ودليل الاستخدام.',
-    coverImage: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&q=80&w=1200'
-    ],
+    coverImage: 'https://i.ibb.co/CphhyJtr/Picsart-26-07-19-14-34-46-689.jpg',
+    galleryImages: ['https://i.ibb.co/CphhyJtr/Picsart-26-07-19-14-34-46-689.jpg'],
     tags: ['تغليف منتجات', 'هوية منتجات طبيعية', 'تصميم العبوات', 'Skincare Packaging'],
     toolsUsed: ['Adobe Illustrator', 'Photoshop 3D Render'],
     deliverables: ['تصميم العبوات والزجاجات', 'أكياس وصناديق الشحن', 'Brand Guidelines Sheet']
@@ -139,12 +115,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     client: 'Pearl Beach Resort & Spa - Jeddah',
     year: '2026',
     description: 'تطوير هوية بصرية فاخرة تشمل دليل الهوية، المطبوعات الفندقية، لوحة الألوان الذهبية والزرقاء، وعناصر الضيافة للنزلاء.',
-    coverImage: 'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1200'
-    ],
+    coverImage: 'https://i.ibb.co/nNwBg7P0/Picsart-26-07-19-09-31-01-453.jpg',
+    galleryImages: ['https://i.ibb.co/nNwBg7P0/Picsart-26-07-19-09-31-01-453.jpg'],
     tags: ['هوية ضيافة', 'منتجع فاخر', 'دليل الماركة', 'Hospitality Branding'],
     toolsUsed: ['Adobe Illustrator', 'Photoshop'],
     deliverables: ['Brand Guidelines Manual', 'مطبوعات وأدوات النزلاء', 'بطاقات الضيافة']
@@ -157,15 +129,25 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     client: 'Sanad Express Logistics',
     year: '2026',
     description: 'نظام هوية بصرية معاصر يعبر عن السرعة والموثوقية، يشمل الدليل الإرشادي الموحد، قرطاسية المكاتب، والأوراق الرسمية والتطبيقات الرقمية.',
-    coverImage: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=1200',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=1200'
-    ],
+    coverImage: 'https://i.ibb.co/sZt4NMy/Picsart-26-07-19-09-40-35-974.jpg',
+    galleryImages: ['https://i.ibb.co/sZt4NMy/Picsart-26-07-19-09-40-35-974.jpg'],
     tags: ['هوية شركات', 'دليل الماركة', 'قرطاسية', 'Logistics Branding'],
     toolsUsed: ['Adobe Illustrator', 'InDesign'],
     deliverables: ['دليل استخدام العلامة التجارية', 'مستلزمات مكاتب وأوراق رسمية', 'بطاقات العمل والملفات']
+  },
+  {
+    id: 'br-10',
+    categoryId: 'brand-identity',
+    title: 'Modern Creative Studio Visual Identity',
+    titleArabic: 'الهوية البصرية الحديثة للاستوديو الإبداعي',
+    client: 'Creative Studio - Cairo',
+    year: '2026',
+    description: 'تصميم هوية إبداعية حديثة تعكس الابتكار والبساطة في العرض والتصميم.',
+    coverImage: 'https://i.ibb.co/PZSZHCN7/Picsart-26-07-19-09-28-36-275.jpg',
+    galleryImages: ['https://i.ibb.co/PZSZHCN7/Picsart-26-07-19-09-28-36-275.jpg'],
+    tags: ['هوية إبداعية', 'تصميم جرافيك', 'استوديو'],
+    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
+    deliverables: ['دليل الهوية البصرية', 'قوالب التصميم']
   },
   // Logo Design Projects
   {
