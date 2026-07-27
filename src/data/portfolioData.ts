@@ -15,11 +15,154 @@ export const CATEGORIES: CategoryInfo[] = [
     arabicTitle: 'الهوية البصرية',
     iconName: 'palette',
     description: 'Complete brand identities, style guidelines, color systems, typography systems, and stationery.',
-    itemCount: 0
+    itemCount: 10
   }
 ];
 
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
+  // Brand Identity Projects (10 Projects with user's direct ImgBB images)
+  {
+    id: 'bi-1',
+    categoryId: 'brand-identity',
+    title: 'Al-Madar Visual Brand Identity',
+    titleArabic: 'الهوية البصرية الشاملة لمجموعة المدار',
+    client: 'Al-Madar Group - Riyadh',
+    year: '2026',
+    description: 'تصميم هوية بصرية متكاملة وشاملة تتضمن دليل استخدام الهوية، كروت الأعمال، القرطاسية المكتبيّة، والأوراق الرسمية.',
+    coverImage: 'https://i.ibb.co/7BjQSNc/Picsart-26-07-23-18-22-49-160.jpg',
+    galleryImages: ['https://i.ibb.co/7BjQSNc/Picsart-26-07-23-18-22-49-160.jpg'],
+    tags: ['هوية بصرية', 'دليل الماركة', 'Corporate Identity'],
+    toolsUsed: ['Adobe Illustrator', 'Adobe InDesign', 'Photoshop'],
+    deliverables: ['دليل الهوية البصرية PDF', 'قرطاسية المكاتب والبطاقات'],
+    featured: true
+  },
+  {
+    id: 'bi-2',
+    categoryId: 'brand-identity',
+    title: 'Horizon Corporate Visual System',
+    titleArabic: 'نظام الهوية البصرية لشركة هورايزون',
+    client: 'Horizon Global - Dubai',
+    year: '2026',
+    description: 'نظام هوية بصرية معاصر للشركات والمؤسسات الكبرى تشمل اختيار الخطوط والألوان والقوالب التسويقية الموحدة.',
+    coverImage: 'https://i.ibb.co/27H3Gbn2/Picsart-26-07-23-18-28-32-494.jpg',
+    galleryImages: ['https://i.ibb.co/27H3Gbn2/Picsart-26-07-23-18-28-32-494.jpg'],
+    tags: ['هوية بصرية', 'مطبوعات', 'Brand Book'],
+    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
+    deliverables: ['Brand Manual', 'قوالب السوشيال ميديا الموحدة']
+  },
+  {
+    id: 'bi-3',
+    categoryId: 'brand-identity',
+    title: 'Aura Luxury Brand Identity',
+    titleArabic: 'الهوية البصرية الفاخرة لعلامة أورا',
+    client: 'Aura Luxury - Kuwait',
+    year: '2026',
+    description: 'هوية بصرية فاخرة تعبر عن الأناقة والرفاهية، تشمل العبوات المطبوعة، بطاقات العضوية، والتغليف الرفيع.',
+    coverImage: 'https://i.ibb.co/Pscw6vx8/Picsart-26-07-23-14-01-47-435.jpg',
+    galleryImages: ['https://i.ibb.co/Pscw6vx8/Picsart-26-07-23-14-01-47-435.jpg'],
+    tags: ['هوية فاخرة', 'تغليف منتجات', 'Brand Identity'],
+    toolsUsed: ['Adobe Illustrator', 'Adobe Photoshop'],
+    deliverables: ['تغليف المنتجات', 'بطاقات الدخول والقرطاسية']
+  },
+  {
+    id: 'bi-4',
+    categoryId: 'brand-identity',
+    title: 'Verve Creative Studio Identity',
+    titleArabic: 'الهوية البصرية لاستوديو فيرف الإبداعي',
+    client: 'Verve Studio - Cairo',
+    year: '2026',
+    description: 'تطوير هوية بصرية بأسلوب عصري ومبتكر تعكس الإبداع واللمسة الفنية الحديثة في كافة المخرجات.',
+    coverImage: 'https://i.ibb.co/DPzRF7Cr/Picsart-26-07-23-14-18-21-840.jpg',
+    galleryImages: ['https://i.ibb.co/DPzRF7Cr/Picsart-26-07-23-14-18-21-840.jpg'],
+    tags: ['هوية استوديو', 'تصميم جرافيك', 'Creative Identity'],
+    toolsUsed: ['Adobe Illustrator', 'Figma'],
+    deliverables: ['ملفات الهوية البصرية الكاملة']
+  },
+  {
+    id: 'bi-5',
+    categoryId: 'brand-identity',
+    title: 'Zain Modern Business Identity',
+    titleArabic: 'الهوية البصرية الحديثة لمؤسسة زين',
+    client: 'Zain Commerce - Khobar',
+    year: '2025',
+    description: 'تصميم هوية بصرية متميزة تعتمد على البساطة، الوضوح، والتناغم بين العناصر البصرية والألوان.',
+    coverImage: 'https://i.ibb.co/nqDLzq4G/Picsart-26-07-23-13-31-24-513.jpg',
+    galleryImages: ['https://i.ibb.co/nqDLzq4G/Picsart-26-07-23-13-31-24-513.jpg'],
+    tags: ['هوية تجارية', 'قرطاسية', 'Stationery'],
+    toolsUsed: ['Adobe Illustrator', 'InDesign'],
+    deliverables: ['دليل الاستخدام والقرطاسية الكاملة']
+  },
+  {
+    id: 'bi-6',
+    categoryId: 'brand-identity',
+    title: 'Kayan Real Estate Brand Identity',
+    titleArabic: 'الهوية البصرية لشركة كيان العقارية',
+    client: 'Kayan Properties - Jeddah',
+    year: '2026',
+    description: 'تصميم وتطوير الهوية البصرية لقطاع التطوير العقاري بمظهر موثوق وفاخر يعزز القيمة التجارية.',
+    coverImage: 'https://i.ibb.co/svmYQyLL/Picsart-26-07-23-14-00-46-437.jpg',
+    galleryImages: ['https://i.ibb.co/svmYQyLL/Picsart-26-07-23-14-00-46-437.jpg'],
+    tags: ['هوية عقارية', 'دليل الماركة', 'Real Estate Identity'],
+    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
+    deliverables: ['كتيب الهوية وقوالب البروفايل']
+  },
+  {
+    id: 'bi-7',
+    categoryId: 'brand-identity',
+    title: 'Rawafed Enterprise Branding',
+    titleArabic: 'الهوية البصرية المؤسسية لشركة روافد',
+    client: 'Rawafed Holding - Abu Dhabi',
+    year: '2026',
+    description: 'هوية مؤسسية متكاملة تشمل التصاميم المطبوعة والرقمية، العروض التقديمية، والأوراق الرسمية.',
+    coverImage: 'https://i.ibb.co/CKYhg736/Picsart-26-07-23-13-22-59-111.jpg',
+    galleryImages: ['https://i.ibb.co/CKYhg736/Picsart-26-07-23-13-22-59-111.jpg'],
+    tags: ['هوية مؤسسية', 'تصميم شركات', 'Enterprise Branding'],
+    toolsUsed: ['Adobe Illustrator', 'InDesign'],
+    deliverables: ['دليل الماركة والقرطاسية الموحدة']
+  },
+  {
+    id: 'bi-8',
+    categoryId: 'brand-identity',
+    title: 'Majd Group Brand Guidelines & Identity',
+    titleArabic: 'دليل الهوية البصرية لمجموعة مجد',
+    client: 'Majd Investment - Muscat',
+    year: '2025',
+    description: 'إعداد دليل هوية بصرية شاملاً لكافة الاستخدامات والتطبيقات العملية على مختلف الوسائط.',
+    coverImage: 'https://i.ibb.co/VZ7ZDfR/Picsart-26-07-23-13-28-22-670.jpg',
+    galleryImages: ['https://i.ibb.co/VZ7ZDfR/Picsart-26-07-23-13-28-22-670.jpg'],
+    tags: ['دليل استخدام الهوية', 'هوية متكاملة', 'Brand Manual'],
+    toolsUsed: ['Adobe Illustrator', 'InDesign'],
+    deliverables: ['Brand Guidelines PDF']
+  },
+  {
+    id: 'bi-9',
+    categoryId: 'brand-identity',
+    title: 'Safir Hospitality Visual Identity',
+    titleArabic: 'الهوية البصرية الشاملة لشركة سفير للضيافة',
+    client: 'Safir Hospitality - Doha',
+    year: '2026',
+    description: 'هوية بصرية مميزة لقطاع الفندقة والضيافة تجمع بين الترحيب العربي والأناقة العالمية.',
+    coverImage: 'https://i.ibb.co/0yzGfWFy/Picsart-26-07-23-13-18-17-611.jpg',
+    galleryImages: ['https://i.ibb.co/0yzGfWFy/Picsart-26-07-23-13-18-17-611.jpg'],
+    tags: ['هوية ضيافة', 'مطبوعات فاخرة', 'Hospitality Identity'],
+    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
+    deliverables: ['مطبوعات الضيافة ودليل الهوية']
+  },
+  {
+    id: 'bi-10',
+    categoryId: 'brand-identity',
+    title: 'Lasheen Design Studio Brand Identity',
+    titleArabic: 'الهوية البصرية المتكاملة لاستوديو لاشين للتصميم',
+    client: 'Lasheen Studio - Alexandria',
+    year: '2026',
+    description: 'تصميم هوية بصرية متميزة تعبر عن احترافية الاستوديو في تقديم أعمال جرافيك وتصميمات راقية.',
+    coverImage: 'https://i.ibb.co/xqdWfTPY/Picsart-26-07-23-13-20-22-934.jpg',
+    galleryImages: ['https://i.ibb.co/xqdWfTPY/Picsart-26-07-23-13-20-22-934.jpg'],
+    tags: ['هوية احترافية', 'دليل الماركة', 'Studio Branding'],
+    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
+    deliverables: ['دليل الهوية وتطبيقاتها']
+  },
+
   // Logo Design Projects (10 Projects with user's direct ImgBB images)
   {
     id: 'br-3',
