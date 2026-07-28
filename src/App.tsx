@@ -89,6 +89,7 @@ export default function App() {
       {/* Floating Action Buttons (WhatsApp Chat & Instagram) */}
       <FloatingActions
         onOpenWorkModal={() => handleOpenWorkForProject()}
+        instagramHandle="ahmed.graphiics"
       />
 
       {/* Minimalist Footer */}

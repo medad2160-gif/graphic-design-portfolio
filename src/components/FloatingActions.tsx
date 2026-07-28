@@ -11,7 +11,7 @@ interface FloatingActionsProps {
 export const FloatingActions: React.FC<FloatingActionsProps> = ({
   onOpenWorkModal,
   whatsappNumber = '966566964857',
-  instagramHandle = 'ahmed_graphic_designer'
+  instagramHandle = 'ahmed.graphiics'
 }) => {
   const handleWhatsAppDirect = () => {
     const text = encodeURIComponent('مرحباً أستاذ أحمد، أرغب في الاستفسار عن خدمات التصميم الجرافيكي.');
