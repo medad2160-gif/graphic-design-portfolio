@@ -102,18 +102,18 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({
             </span>
           </div>
 
-          {/* Grid of Logos directly on page with no borders, boxes, or cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 sm:gap-16 items-start">
+          {/* 2-Column Frameless & Cardless Grid of Logos side-by-side matching user image */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 sm:gap-x-12 gap-y-16 sm:gap-y-20 items-start">
             {logoProjects.map((project, idx) => (
               <motion.div
                 key={project.id}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-50px' }}
-                transition={{ duration: 0.6, delay: (idx % 3) * 0.1 }}
+                transition={{ duration: 0.6, delay: (idx % 2) * 0.1 }}
                 className="flex flex-col items-center text-center group relative"
               >
-                {/* Logo Artwork Image Container - Pure Clean Artwork, NO Border, NO Box, NO Card */}
+                {/* Logo Artwork Image Container - Pure Clean Artwork, Frameless */}
                 <div
                   onClick={() =>
                     setLightboxImage({
@@ -121,48 +121,33 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({
                       title: project.titleArabic || project.title,
                     })
                   }
-                  className="relative w-full overflow-hidden cursor-pointer flex items-center justify-center py-6 group"
+                  className="relative w-full overflow-hidden cursor-pointer flex items-center justify-center group"
                 >
-                  {/* Full size uncropped image */}
                   <img
                     src={project.coverImage}
                     alt={project.title}
-                    className="w-full h-auto max-h-[480px] object-contain transition-transform duration-500 group-hover:scale-[1.03]"
+                    className="w-full h-auto aspect-square sm:aspect-auto object-cover sm:object-contain rounded-sm transition-transform duration-500 group-hover:scale-[1.02]"
                     loading="lazy"
                   />
 
-                  {/* Hover Overlay Button to inspect in high resolution */}
-                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
-                    <span className="bg-black/80 backdrop-blur-md text-amber-300 text-xs px-3.5 py-2 rounded-full border border-amber-500/30 flex items-center gap-1.5 font-arabic-standard shadow-2xl">
+                  {/* Hover Overlay Button */}
+                  <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
+                    <span className="bg-black/80 backdrop-blur-md text-amber-300 text-xs px-4 py-2 rounded-full border border-amber-500/30 flex items-center gap-1.5 font-arabic-standard shadow-2xl">
                       <ZoomIn className="w-4 h-4" />
                       عرض دقيق مكبر
                     </span>
                   </div>
                 </div>
 
-                {/* Minimalist Details Below Artwork - Clean Typography */}
-                <div className="mt-4 w-full text-center space-y-1.5" dir="rtl">
-                  <h4 className="text-lg sm:text-xl font-medium text-white font-arabic-standard group-hover:text-amber-300 transition-colors">
-                    {project.titleArabic || project.title}
-                  </h4>
-                  <p className="text-xs text-zinc-400 font-sans-montserrat">
-                    {project.title} • {project.client} ({project.year})
-                  </p>
-                  {project.description && (
-                    <p className="text-xs text-zinc-400 font-arabic-standard line-clamp-2 max-w-sm mx-auto pt-1">
-                      {project.description}
-                    </p>
-                  )}
-
-                  <div className="pt-3">
-                    <button
-                      onClick={() => onRequestWork(project.titleArabic || project.title)}
-                      className="inline-flex items-center gap-1.5 text-xs text-amber-400 hover:text-amber-300 font-arabic-standard font-medium py-1 px-3 rounded-full hover:bg-amber-500/10 transition-colors cursor-pointer"
-                    >
-                      <Send className="w-3 h-3" />
-                      طلب تصميم شعار مشابه
-                    </button>
-                  </div>
+                {/* Minimalist Details Below Artwork */}
+                <div className="mt-3 w-full text-center" dir="rtl">
+                  <button
+                    onClick={() => onRequestWork(project.titleArabic || project.title)}
+                    className="inline-flex items-center gap-1.5 text-xs text-amber-400 hover:text-amber-300 font-arabic-standard font-medium hover:underline cursor-pointer transition-colors"
+                  >
+                    <Send className="w-3.5 h-3.5" />
+                    طلب تصميم شعار مشابه
+                  </button>
                 </div>
               </motion.div>
             ))}
