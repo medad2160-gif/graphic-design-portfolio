@@ -206,29 +206,15 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({
                   </div>
                 </div>
 
-                {/* Project Header Info - Placed BELOW the artwork */}
-                <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/10 pb-6 pt-2" dir="rtl">
-                  <div>
-                    <span className="text-xs text-amber-400 font-mono uppercase tracking-widest block mb-1">
-                      {project.client} • {project.year}
-                    </span>
-                    <h4 className="text-2xl sm:text-3xl md:text-4xl font-normal text-white font-arabic-standard mb-2">
-                      {project.titleArabic || project.title}
-                    </h4>
-                    <p className="text-sm text-zinc-400 font-arabic-standard max-w-3xl leading-relaxed">
-                      {project.description}
-                    </p>
-                  </div>
-
-                  <div className="flex flex-wrap items-center gap-3 shrink-0">
-                    <button
-                      onClick={() => onRequestWork(project.titleArabic || project.title)}
-                      className="px-5 py-2.5 rounded-full bg-amber-500 hover:bg-amber-400 text-black text-xs font-medium font-arabic-standard flex items-center gap-2 shadow-lg transition-all cursor-pointer"
-                    >
-                      <Sparkles className="w-4 h-4" />
-                      طلب هوية بصرية مماثلة
-                    </button>
-                  </div>
+                {/* Minimalist Details Below Artwork */}
+                <div className="mt-3 w-full text-center" dir="rtl">
+                  <button
+                    onClick={() => onRequestWork(project.titleArabic || project.title)}
+                    className="inline-flex items-center gap-1.5 text-xs text-amber-400 hover:text-amber-300 font-arabic-standard font-medium hover:underline cursor-pointer transition-colors"
+                  >
+                    <Sparkles className="w-3.5 h-3.5" />
+                    طلب هوية بصرية مماثلة
+                  </button>
                 </div>
               </motion.div>
             ))}
