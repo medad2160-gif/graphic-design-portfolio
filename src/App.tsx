@@ -3,6 +3,7 @@ import { HeroSection } from './components/HeroSection';
 import { AboutSection } from './components/AboutSection';
 import { PortfolioSection } from './components/PortfolioSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
+import { ContactFooter } from './components/ContactFooter';
 import { CategoryDetailModal } from './components/CategoryDetailModal';
 import { WorkModal } from './components/WorkModal';
 import { FloatingActions } from './components/FloatingActions';
@@ -75,7 +76,12 @@ export default function App() {
         onRequestWork={() => handleOpenWorkForProject()}
       />
 
-      {/* Category Detail & Work Showcase Modal */}
+      {/* Contact Methods & Site Footer */}
+      <ContactFooter
+        onOpenWorkModal={() => handleOpenWorkForProject()}
+        whatsappNumber={WHATSAPP_NUMBER}
+        instagramHandle="ahmed.graphiics"
+      />
       <CategoryDetailModal
         categoryId={activeCategoryId}
         onClose={() => setActiveCategoryId(null)}
@@ -98,11 +104,6 @@ export default function App() {
         onOpenWorkModal={() => handleOpenWorkForProject()}
         instagramHandle="ahmed.graphiics"
       />
-
-      {/* Minimalist Footer */}
-      <footer className="py-8 text-center text-xs text-zinc-600 border-t border-white/5 mt-12 font-mono">
-        <p>© {new Date().getFullYear()} AHMED LASHEEN — Graphic Designer Portfolio. All Rights Reserved.</p>
-      </footer>
     </div>
   );
 }

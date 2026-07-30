@@ -7,7 +7,7 @@ export const CATEGORIES: CategoryInfo[] = [
     arabicTitle: 'تصميم الشعارات',
     iconName: 'pen-tool',
     description: 'Custom logo designs, Arabic calligraphy monograms, emblem design, and vector logomarks.',
-    itemCount: 10
+    itemCount: 5
   },
   {
     id: 'brand-identity',
@@ -15,12 +15,12 @@ export const CATEGORIES: CategoryInfo[] = [
     arabicTitle: 'الهوية البصرية',
     iconName: 'palette',
     description: 'Complete brand identities, style guidelines, color systems, typography systems, and stationery.',
-    itemCount: 10
+    itemCount: 5
   }
 ];
 
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
-  // Brand Identity Projects (10 Projects with user's direct ImgBB images)
+  // Brand Identity Projects (5 Projects)
   {
     id: 'bi-1',
     categoryId: 'brand-identity',
@@ -92,78 +92,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     toolsUsed: ['Adobe Illustrator', 'InDesign'],
     deliverables: ['دليل الاستخدام والقرطاسية الكاملة']
   },
-  {
-    id: 'bi-6',
-    categoryId: 'brand-identity',
-    title: 'Kayan Real Estate Brand Identity',
-    titleArabic: 'الهوية البصرية لشركة كيان العقارية',
-    client: 'Kayan Properties - Jeddah',
-    year: '2026',
-    description: 'تصميم وتطوير الهوية البصرية لقطاع التطوير العقاري بمظهر موثوق وفاخر يعزز القيمة التجارية.',
-    coverImage: 'https://i.ibb.co/svmYQyLL/Picsart-26-07-23-14-00-46-437.jpg',
-    galleryImages: ['https://i.ibb.co/svmYQyLL/Picsart-26-07-23-14-00-46-437.jpg'],
-    tags: ['هوية عقارية', 'دليل الماركة', 'Real Estate Identity'],
-    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
-    deliverables: ['كتيب الهوية وقوالب البروفايل']
-  },
-  {
-    id: 'bi-7',
-    categoryId: 'brand-identity',
-    title: 'Rawafed Enterprise Branding',
-    titleArabic: 'الهوية البصرية المؤسسية لشركة روافد',
-    client: 'Rawafed Holding - Abu Dhabi',
-    year: '2026',
-    description: 'هوية مؤسسية متكاملة تشمل التصاميم المطبوعة والرقمية، العروض التقديمية، والأوراق الرسمية.',
-    coverImage: 'https://i.ibb.co/CKYhg736/Picsart-26-07-23-13-22-59-111.jpg',
-    galleryImages: ['https://i.ibb.co/CKYhg736/Picsart-26-07-23-13-22-59-111.jpg'],
-    tags: ['هوية مؤسسية', 'تصميم شركات', 'Enterprise Branding'],
-    toolsUsed: ['Adobe Illustrator', 'InDesign'],
-    deliverables: ['دليل الماركة والقرطاسية الموحدة']
-  },
-  {
-    id: 'bi-8',
-    categoryId: 'brand-identity',
-    title: 'Majd Group Brand Guidelines & Identity',
-    titleArabic: 'دليل الهوية البصرية لمجموعة مجد',
-    client: 'Majd Investment - Muscat',
-    year: '2025',
-    description: 'إعداد دليل هوية بصرية شاملاً لكافة الاستخدامات والتطبيقات العملية على مختلف الوسائط.',
-    coverImage: 'https://i.ibb.co/VZ7ZDfR/Picsart-26-07-23-13-28-22-670.jpg',
-    galleryImages: ['https://i.ibb.co/VZ7ZDfR/Picsart-26-07-23-13-28-22-670.jpg'],
-    tags: ['دليل استخدام الهوية', 'هوية متكاملة', 'Brand Manual'],
-    toolsUsed: ['Adobe Illustrator', 'InDesign'],
-    deliverables: ['Brand Guidelines PDF']
-  },
-  {
-    id: 'bi-9',
-    categoryId: 'brand-identity',
-    title: 'Safir Hospitality Visual Identity',
-    titleArabic: 'الهوية البصرية الشاملة لشركة سفير للضيافة',
-    client: 'Safir Hospitality - Doha',
-    year: '2026',
-    description: 'هوية بصرية مميزة لقطاع الفندقة والضيافة تجمع بين الترحيب العربي والأناقة العالمية.',
-    coverImage: 'https://i.ibb.co/0yzGfWFy/Picsart-26-07-23-13-18-17-611.jpg',
-    galleryImages: ['https://i.ibb.co/0yzGfWFy/Picsart-26-07-23-13-18-17-611.jpg'],
-    tags: ['هوية ضيافة', 'مطبوعات فاخرة', 'Hospitality Identity'],
-    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
-    deliverables: ['مطبوعات الضيافة ودليل الهوية']
-  },
-  {
-    id: 'bi-10',
-    categoryId: 'brand-identity',
-    title: 'Lasheen Design Studio Brand Identity',
-    titleArabic: 'الهوية البصرية المتكاملة لاستوديو لاشين للتصميم',
-    client: 'Lasheen Studio - Alexandria',
-    year: '2026',
-    description: 'تصميم هوية بصرية متميزة تعبر عن احترافية الاستوديو في تقديم أعمال جرافيك وتصميمات راقية.',
-    coverImage: 'https://i.ibb.co/xqdWfTPY/Picsart-26-07-23-13-20-22-934.jpg',
-    galleryImages: ['https://i.ibb.co/xqdWfTPY/Picsart-26-07-23-13-20-22-934.jpg'],
-    tags: ['هوية احترافية', 'دليل الماركة', 'Studio Branding'],
-    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
-    deliverables: ['دليل الهوية وتطبيقاتها']
-  },
 
-  // Logo Design Projects (10 Projects with user's direct ImgBB images)
+  // Logo Design Projects (5 Projects)
   {
     id: 'br-3',
     categoryId: 'logo-design',
@@ -235,76 +165,6 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     tags: ['شعار فاخر', 'خط عربي', 'لوجو مطاعم'],
     toolsUsed: ['Adobe Illustrator', 'Photoshop'],
     deliverables: ['الشعار الذهبي والملفات الفيكتور']
-  },
-  {
-    id: 'br-9',
-    categoryId: 'logo-design',
-    title: 'Raihan Organic Skincare Logomark',
-    titleArabic: 'شعار منتجات ريحان الطبيعية',
-    client: 'Raihan Botanicals - Muscat',
-    year: '2026',
-    description: 'شعار راقي وناعم مستوحى من عناصر الطبيعة والأشكال الهندسية الهادئة.',
-    coverImage: 'https://i.ibb.co/CphhyJtr/Picsart-26-07-19-14-34-46-689.jpg',
-    galleryImages: ['https://i.ibb.co/CphhyJtr/Picsart-26-07-19-14-34-46-689.jpg'],
-    tags: ['شعار منتجات', 'لوجو ناعم', 'Skincare Logo'],
-    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
-    deliverables: ['ملفات الشعار المتجهة Vector']
-  },
-  {
-    id: 'br-4',
-    categoryId: 'logo-design',
-    title: 'Pearl Beach Luxury Resort Emblem',
-    titleArabic: 'شعار منتجع شاطئ اللؤلؤ الفاخر',
-    client: 'Pearl Beach Resort & Spa - Jeddah',
-    year: '2026',
-    description: 'تطوير شعار ملكي فاخر يدمج بين رمزية اللؤلؤ وأمواج البحر بأناقة متناهية.',
-    coverImage: 'https://i.ibb.co/nNwBg7P0/Picsart-26-07-19-09-31-01-453.jpg',
-    galleryImages: ['https://i.ibb.co/nNwBg7P0/Picsart-26-07-19-09-31-01-453.jpg'],
-    tags: ['شعار ملكي', 'شعار ضيافة', 'Luxury Emblem'],
-    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
-    deliverables: ['الشعار الكامل بكافة درجاته وشاراته']
-  },
-  {
-    id: 'br-6',
-    categoryId: 'logo-design',
-    title: 'Sanad Express Logistics Monogram',
-    titleArabic: 'شعار وبصمة شركة سند اللوجستية',
-    client: 'Sanad Express Logistics',
-    year: '2026',
-    description: 'شعار معاصر وقوي يعبر عن السرعة والموثوقية والربط.',
-    coverImage: 'https://i.ibb.co/sZt4NMy/Picsart-26-07-19-09-40-35-974.jpg',
-    galleryImages: ['https://i.ibb.co/sZt4NMy/Picsart-26-07-19-09-40-35-974.jpg'],
-    tags: ['شعار شركات', 'لوجو لوجستي', 'Corporate Monogram'],
-    toolsUsed: ['Adobe Illustrator'],
-    deliverables: ['ملفات الشعار الاحترافية']
-  },
-  {
-    id: 'br-10',
-    categoryId: 'logo-design',
-    title: 'Modern Creative Studio Logo',
-    titleArabic: 'شعار الاستوديو الإبداعي الحديث',
-    client: 'Creative Studio - Cairo',
-    year: '2026',
-    description: 'تصميم شعار إبداعي حديث يعكس الابتكار والبساطة والجمال البصري.',
-    coverImage: 'https://i.ibb.co/PZSZHCN7/Picsart-26-07-19-09-28-36-275.jpg',
-    galleryImages: ['https://i.ibb.co/PZSZHCN7/Picsart-26-07-19-09-28-36-275.jpg'],
-    tags: ['شعار إبداعي', 'تصميم جرافيك', 'لوجو مودرن'],
-    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
-    deliverables: ['ملفات الشعار العالية الجودة']
-  },
-  {
-    id: 'br-11',
-    categoryId: 'logo-design',
-    title: 'Contemporary Logo & Design Mark',
-    titleArabic: 'الشعار والبصمة المعاصرة للاستوديو الإبداعي',
-    client: 'Lasheen Design Studio',
-    year: '2026',
-    description: 'تصميم شعار متميز يعكس الفخامة والاحترافية واللمسة الفنية المبدعة.',
-    coverImage: 'https://i.ibb.co/PvBFR4kw/Picsart-26-07-27-13-09-57-596.jpg',
-    galleryImages: ['https://i.ibb.co/PvBFR4kw/Picsart-26-07-27-13-09-57-596.jpg'],
-    tags: ['تصميم شعار', 'بصمة إبداعية', 'لوجو احترافي'],
-    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
-    deliverables: ['ملفات الشعار وتطبيقاته']
   }
 ];
 
