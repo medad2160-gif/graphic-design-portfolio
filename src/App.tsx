@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { HeroSection } from './components/HeroSection';
+import { AboutSection } from './components/AboutSection';
 import { PortfolioSection } from './components/PortfolioSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
 import { CategoryDetailModal } from './components/CategoryDetailModal';
@@ -52,6 +53,12 @@ export default function App() {
         englishFont={englishFont}
         onWorkClick={() => handleOpenWorkForProject()}
         onPortfolioClick={handleScrollToPortfolio}
+      />
+
+      {/* About Me Section */}
+      <AboutSection
+        englishFont={englishFont}
+        onRequestWork={() => handleOpenWorkForProject()}
       />
 
       {/* Portfolio Showcase Section (Cardless & Frameless directly on page) */}
