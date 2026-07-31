@@ -7,7 +7,7 @@ export const CATEGORIES: CategoryInfo[] = [
     arabicTitle: 'تصميم الشعارات',
     iconName: 'pen-tool',
     description: 'Custom logo designs, Arabic calligraphy monograms, emblem design, and vector logomarks.',
-    itemCount: 5
+    itemCount: 3
   },
   {
     id: 'brand-identity',
@@ -15,12 +15,12 @@ export const CATEGORIES: CategoryInfo[] = [
     arabicTitle: 'الهوية البصرية',
     iconName: 'palette',
     description: 'Complete brand identities, style guidelines, color systems, typography systems, and stationery.',
-    itemCount: 5
+    itemCount: 3
   }
 ];
 
 export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
-  // Brand Identity Projects (5 Projects)
+  // Brand Identity Projects (3 Projects)
   {
     id: 'bi-1',
     categoryId: 'brand-identity',
@@ -64,36 +64,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     toolsUsed: ['Adobe Illustrator', 'Adobe Photoshop'],
     deliverables: ['تغليف المنتجات', 'بطاقات الدخول والقرطاسية']
   },
-  {
-    id: 'bi-4',
-    categoryId: 'brand-identity',
-    title: 'Verve Creative Studio Identity',
-    titleArabic: 'الهوية البصرية لاستوديو فيرف الإبداعي',
-    client: 'Verve Studio - Cairo',
-    year: '2026',
-    description: 'تطوير هوية بصرية بأسلوب عصري ومبتكر تعكس الإبداع واللمسة الفنية الحديثة في كافة المخرجات.',
-    coverImage: 'https://i.ibb.co/DPzRF7Cr/Picsart-26-07-23-14-18-21-840.jpg',
-    galleryImages: ['https://i.ibb.co/DPzRF7Cr/Picsart-26-07-23-14-18-21-840.jpg'],
-    tags: ['هوية استوديو', 'تصميم جرافيك', 'Creative Identity'],
-    toolsUsed: ['Adobe Illustrator', 'Figma'],
-    deliverables: ['ملفات الهوية البصرية الكاملة']
-  },
-  {
-    id: 'bi-5',
-    categoryId: 'brand-identity',
-    title: 'Zain Modern Business Identity',
-    titleArabic: 'الهوية البصرية الحديثة لمؤسسة زين',
-    client: 'Zain Commerce - Khobar',
-    year: '2025',
-    description: 'تصميم هوية بصرية متميزة تعتمد على البساطة، الوضوح، والتناغم بين العناصر البصرية والألوان.',
-    coverImage: 'https://i.ibb.co/nqDLzq4G/Picsart-26-07-23-13-31-24-513.jpg',
-    galleryImages: ['https://i.ibb.co/nqDLzq4G/Picsart-26-07-23-13-31-24-513.jpg'],
-    tags: ['هوية تجارية', 'قرطاسية', 'Stationery'],
-    toolsUsed: ['Adobe Illustrator', 'InDesign'],
-    deliverables: ['دليل الاستخدام والقرطاسية الكاملة']
-  },
 
-  // Logo Design Projects (5 Projects)
+  // Logo Design Projects (3 Projects)
   {
     id: 'br-3',
     categoryId: 'logo-design',
@@ -135,36 +107,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     galleryImages: ['https://i.ibb.co/d4CVwrNp/Picsart-26-07-19-14-45-06-681.jpg'],
     tags: ['Logo Design', 'Minimalist Emblem', 'Vector Mark'],
     toolsUsed: ['Adobe Illustrator', 'Adobe Photoshop'],
-    deliverables: ['الشعار بكافة صيغه الأساسية والرمزية'],
-    featured: true
-  },
-  {
-    id: 'br-7',
-    categoryId: 'logo-design',
-    title: 'Rawafed Innovation Hub Tech Logomark',
-    titleArabic: 'شعار مركز روافد للابتكار والتقنية',
-    client: 'Rawafed Innovation Hub - Dubai',
-    year: '2026',
-    description: 'شعار تقني مبتكر بحس مستقبلي عالي الجودة يعبر عن الابداع والتطوير.',
-    coverImage: 'https://i.ibb.co/fYz3ShdS/Picsart-26-07-19-14-49-27-932.jpg',
-    galleryImages: ['https://i.ibb.co/fYz3ShdS/Picsart-26-07-19-14-49-27-932.jpg'],
-    tags: ['شعار تقني', 'لوجو مبتكر', 'Tech Monogram'],
-    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
-    deliverables: ['ملفات الشعار العالية الجودة']
-  },
-  {
-    id: 'br-8',
-    categoryId: 'logo-design',
-    title: 'Diwaniyah Oriental Lounge Restaurant Logo',
-    titleArabic: 'شعار ديوانية العود الفاخرة',
-    client: 'Diwaniyah Group - Abu Dhabi',
-    year: '2025',
-    description: 'تصميم شعار فاخر يعبر عن الأصالة والضيافة العربية الشرقية الكلاسيكية.',
-    coverImage: 'https://i.ibb.co/99bbTwnV/Picsart-26-07-19-14-37-04-333.jpg',
-    galleryImages: ['https://i.ibb.co/99bbTwnV/Picsart-26-07-19-14-37-04-333.jpg'],
-    tags: ['شعار فاخر', 'خط عربي', 'لوجو مطاعم'],
-    toolsUsed: ['Adobe Illustrator', 'Photoshop'],
-    deliverables: ['الشعار الذهبي والملفات الفيكتور']
+    deliverables: ['الشعار بكافة صيغه الأساسية والرمزية']
   }
 ];
 

@@ -102,15 +102,15 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({
             </span>
           </div>
 
-          {/* 2-Column Frameless & Cardless Grid of Logos side-by-side matching user image */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 sm:gap-x-12 gap-y-16 sm:gap-y-20 items-start">
+          {/* 3-Column Grid of Logos side-by-side */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 gap-y-12 items-start">
             {logoProjects.map((project, idx) => (
               <motion.div
                 key={project.id}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-50px' }}
-                transition={{ duration: 0.6, delay: (idx % 2) * 0.1 }}
+                transition={{ duration: 0.6, delay: (idx % 3) * 0.1 }}
                 className="flex flex-col items-center text-center group relative"
               >
                 {/* Logo Artwork Image Container - Pure Clean Artwork, Frameless */}
@@ -138,17 +138,6 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({
                     </span>
                   </div>
                 </div>
-
-                {/* Minimalist Details Below Artwork */}
-                <div className="mt-3 w-full text-center" dir="rtl">
-                  <button
-                    onClick={() => onRequestWork(project.titleArabic || project.title)}
-                    className="inline-flex items-center gap-1.5 text-xs text-amber-400 hover:text-amber-300 font-arabic-standard font-medium hover:underline cursor-pointer transition-colors"
-                  >
-                    <Send className="w-3.5 h-3.5" />
-                    طلب تصميم شعار مشابه
-                  </button>
-                </div>
               </motion.div>
             ))}
           </div>
@@ -171,16 +160,16 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({
             </span>
           </div>
 
-          {/* Full-width Editorial Showcase Blocks directly on the page */}
-          <div className="space-y-24 sm:space-y-32">
+          {/* 3-Column Grid of Brand Identity Projects side-by-side */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 gap-y-12 items-start">
             {identityProjects.map((project, idx) => (
               <motion.div
                 key={project.id}
-                initial={{ opacity: 0, y: 40 }}
+                initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-100px' }}
-                transition={{ duration: 0.8 }}
-                className="space-y-6"
+                viewport={{ once: true, margin: '-50px' }}
+                transition={{ duration: 0.6, delay: (idx % 3) * 0.1 }}
+                className="flex flex-col items-center text-center group relative"
               >
                 {/* Main Cover Image - Pure Original Uncropped Artwork directly on page */}
                 <div
@@ -204,17 +193,6 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({
                       عرض الصورة بجودتها الكاملة
                     </span>
                   </div>
-                </div>
-
-                {/* Minimalist Details Below Artwork */}
-                <div className="mt-3 w-full text-center" dir="rtl">
-                  <button
-                    onClick={() => onRequestWork(project.titleArabic || project.title)}
-                    className="inline-flex items-center gap-1.5 text-xs text-amber-400 hover:text-amber-300 font-arabic-standard font-medium hover:underline cursor-pointer transition-colors"
-                  >
-                    <Sparkles className="w-3.5 h-3.5" />
-                    طلب هوية بصرية مماثلة
-                  </button>
                 </div>
               </motion.div>
             ))}
@@ -251,15 +229,6 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({
                   alt={lightboxImage.title}
                   className="max-w-full max-h-[85vh] w-auto h-auto object-contain rounded-lg shadow-2xl"
                 />
-              </div>
-
-              <div className="mt-3 text-center" dir="rtl">
-                <h4 className="text-sm sm:text-base font-arabic-standard text-white font-medium">
-                  {lightboxImage.title}
-                </h4>
-                <p className="text-xs text-zinc-400 font-mono mt-0.5">
-                  عرض بالدقة الطبيعية الكاملة
-                </p>
               </div>
             </motion.div>
           </div>
