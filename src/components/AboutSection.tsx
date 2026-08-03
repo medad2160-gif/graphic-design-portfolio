@@ -29,7 +29,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
   };
 
   return (
-    <section id="about-section" className="relative py-24 px-4 overflow-hidden border-t border-white/5">
+    <section id="about-section" className="relative py-10 sm:py-16 px-4 overflow-hidden border-t border-white/5">
       {/* Background Subtle Lighting */}
       <div className="absolute inset-0 pointer-events-none -z-10 select-none overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[350px] bg-amber-500/5 rounded-full blur-[150px]" />

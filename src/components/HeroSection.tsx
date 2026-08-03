@@ -46,7 +46,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
   };
 
   return (
-    <section className="relative min-h-[90vh] sm:min-h-screen flex flex-col items-center justify-center px-4 py-12 text-center overflow-hidden">
+    <section className="relative flex flex-col items-center justify-center px-4 pt-16 sm:pt-24 pb-8 sm:pb-12 text-center overflow-hidden">
       {/* Dark Blurred Graphic Art Backdrop matching designerahmed.com screenshot */}
       <div className="absolute inset-0 -z-10 overflow-hidden pointer-events-none select-none">
         {/* Base dark canvas */}
