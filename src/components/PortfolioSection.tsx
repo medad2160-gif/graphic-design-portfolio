@@ -37,8 +37,8 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({
         transition={{ duration: 0.7 }}
         className="text-center mb-12 sm:mb-16"
       >
-        <span className="text-amber-400 text-xs sm:text-sm font-medium tracking-widest uppercase font-mono block mb-2">
-          PORTFOLIO SHOWCASE
+        <span className="text-amber-400 text-xs sm:text-sm font-medium tracking-widest font-arabic-standard block mb-2" dir="rtl">
+          معرض الأعمال والتصاميم
         </span>
         <h2 className="text-4xl sm:text-5xl md:text-6xl text-white font-normal mb-4 font-arabic-standard" dir="rtl">
           معرض الأعمال والتصاميم
@@ -97,8 +97,8 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({
               <PenTool className="w-6 h-6 text-amber-400" />
               قسم تصميم الشعارات
             </h3>
-            <span className="text-xs text-zinc-500 font-mono">
-              {logoProjects.length} LOGO DESIGNS
+            <span className="text-xs text-zinc-400 font-arabic-standard">
+              {logoProjects.length} تصاميم شعارات
             </span>
           </div>
 
@@ -155,8 +155,8 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({
               <Palette className="w-6 h-6 text-orange-400" />
               قسم الهوية البصرية والمعارض الشاملة
             </h3>
-            <span className="text-xs text-zinc-500 font-mono">
-              {identityProjects.length} BRAND IDENTITIES
+            <span className="text-xs text-zinc-400 font-arabic-standard">
+              {identityProjects.length} مشاريع هوية بصرية
             </span>
           </div>
 

@@ -33,7 +33,7 @@ export const FloatingActions: React.FC<FloatingActionsProps> = ({
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         onClick={onOpenWorkModal}
-        title="تواصل معي / Work Inquiry"
+        title="تواصل معي"
         className="w-12 h-12 rounded-full glass-card hover:bg-white/15 text-white flex items-center justify-center border border-white/20 shadow-2xl backdrop-blur-md cursor-pointer transition-colors group relative"
       >
         <MessageCircle className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />
@@ -53,7 +53,7 @@ export const FloatingActions: React.FC<FloatingActionsProps> = ({
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         onClick={handleInstagramDirect}
-        title="Instagram Profile"
+        title="إنستغرام"
         className="w-12 h-12 rounded-full glass-card hover:bg-white/15 text-white flex items-center justify-center border border-white/20 shadow-2xl backdrop-blur-md cursor-pointer transition-colors group relative"
       >
         <Instagram className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />

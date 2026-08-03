@@ -44,8 +44,8 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
           transition={{ duration: 0.6 }}
           className="text-center mb-14"
         >
-          <span className="text-zinc-400 text-xs font-mono uppercase tracking-[0.3em] block mb-2 font-light">
-            ABOUT ME
+          <span className="text-zinc-400 text-xs font-arabic-standard uppercase tracking-[0.2em] block mb-2 font-medium" dir="rtl">
+            نبذة تعريفية
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-white font-arabic-standard tracking-tight">
             نبذة عني

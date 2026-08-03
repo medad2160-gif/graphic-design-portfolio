@@ -73,7 +73,7 @@ export const ContactFooter: React.FC<ContactFooterProps> = ({
             </div>
 
             <div className="space-y-1">
-              <span className="text-xs text-emerald-400 font-arabic-standard font-medium">واتساب (WhatsApp)</span>
+              <span className="text-xs text-emerald-400 font-arabic-standard font-medium">واتساب</span>
               <h3 className="text-lg font-bold text-white font-sans-montserrat dir-ltr text-right" dir="ltr">
                 {formattedWhatsApp}
               </h3>
@@ -98,7 +98,7 @@ export const ContactFooter: React.FC<ContactFooterProps> = ({
             </div>
 
             <div className="space-y-1">
-              <span className="text-xs text-pink-400 font-arabic-standard font-medium">إنستغرام (Instagram)</span>
+              <span className="text-xs text-pink-400 font-arabic-standard font-medium">إنستغرام</span>
               <h3 className="text-lg font-bold text-white font-sans-montserrat dir-ltr text-right" dir="ltr">
                 @{instagramHandle}
               </h3>
@@ -114,12 +114,12 @@ export const ContactFooter: React.FC<ContactFooterProps> = ({
           <div className="flex items-center gap-3 text-center sm:text-right">
             <span className="text-white font-medium">أحمد لاشين</span>
             <span>•</span>
-            <span>مصمم جرافيك (Graphic Designer)</span>
+            <span>مصمم جرافيك</span>
           </div>
 
           <div className="flex items-center gap-4">
-            <p className="text-zinc-600 font-mono text-[11px] dir-ltr">
-              © {new Date().getFullYear()} AHMED LASHEEN. All rights reserved.
+            <p className="text-zinc-500 font-arabic-standard text-[12px]" dir="rtl">
+              © {new Date().getFullYear()} أحمد لاشين. جميع الحقوق محفوظة.
             </p>
 
             <button

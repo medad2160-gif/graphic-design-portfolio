@@ -143,7 +143,7 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
             className="glass-card hover:bg-white/10 text-white text-xs px-4 py-2 rounded-full border border-white/15 transition-all flex items-center gap-2 cursor-pointer font-sans-montserrat active:scale-95"
           >
             <MessageSquarePlus className="w-3.5 h-3.5 text-amber-300" />
-            <span dir="rtl">أضف تقييمك / Add Review</span>
+            <span dir="rtl">أضف تقييمك</span>
           </button>
         </div>
       </motion.div>
@@ -306,8 +306,8 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
                   </div>
 
                   <div>
-                    <label className="block text-xs text-zinc-400 mb-1 font-mono uppercase">
-                      اسمك الكريم / Name
+                    <label className="block text-xs text-zinc-400 mb-1 font-arabic-standard">
+                      الاسم الكريم
                     </label>
                     <input
                       type="text"
@@ -322,8 +322,8 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
 
 
                   <div>
-                    <label className="block text-xs text-zinc-400 mb-1 font-mono uppercase">
-                      التقييم / Rating
+                    <label className="block text-xs text-zinc-400 mb-1 font-arabic-standard">
+                      التقييم
                     </label>
                     <div className="flex gap-2">
                       {[1, 2, 3, 4, 5].map((star) => (
@@ -344,8 +344,8 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
                   </div>
 
                   <div>
-                    <label className="block text-xs text-zinc-400 mb-1 font-mono uppercase">
-                      رأيك في العمل والخدمة / Review
+                    <label className="block text-xs text-zinc-400 mb-1 font-arabic-standard">
+                      رأيك في العمل والخدمة
                     </label>
                     <textarea
                       rows={3}

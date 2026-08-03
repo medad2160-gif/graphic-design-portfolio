@@ -43,7 +43,7 @@ export const CategoryDetailModal: React.FC<CategoryDetailModalProps> = ({
                 <button
                   onClick={() => setSelectedProject(null)}
                   className="p-1.5 rounded-full hover:bg-white/10 text-zinc-400 hover:text-white transition-colors cursor-pointer"
-                  title="Back to Projects"
+                  title="الرجوع للمشاريع"
                 >
                   <ArrowLeft className="w-5 h-5" />
                 </button>
@@ -101,7 +101,7 @@ export const CategoryDetailModal: React.FC<CategoryDetailModalProps> = ({
                           </span>
                           <span className="flex items-center gap-1 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-full border border-white/10">
                             <ImageIcon className="w-3 h-3 text-zinc-400" />
-                            {project.galleryImages.length} Shots
+                            {project.galleryImages.length} صور
                           </span>
                         </div>
                       </div>
@@ -110,7 +110,7 @@ export const CategoryDetailModal: React.FC<CategoryDetailModalProps> = ({
                       <div className="p-5 flex-1 flex flex-col justify-between">
                         <div>
                           <div className="text-xs text-zinc-400 uppercase tracking-widest font-mono mb-1">
-                            Client: {project.client}
+                            العميل: {project.client}
                           </div>
                           <h4 className="font-sans-montserrat text-lg font-medium text-white mb-1 group-hover:text-zinc-100 transition-colors">
                             {project.title}
@@ -173,12 +173,12 @@ export const CategoryDetailModal: React.FC<CategoryDetailModalProps> = ({
                 {/* Details Breakdown */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-white/10">
                   <div className="md:col-span-2 space-y-4">
-                    <h4 className="text-xl font-medium font-sans-montserrat text-white">Project Overview</h4>
+                    <h4 className="text-xl font-medium font-arabic-standard text-white" dir="rtl">نظرة عامة على المشروع</h4>
                     <p className="text-zinc-300 text-sm leading-relaxed">{selectedProject.description}</p>
 
                     {selectedProject.deliverables && (
                       <div className="mt-4">
-                        <h5 className="text-xs uppercase tracking-widest text-zinc-400 font-mono mb-2">Deliverables</h5>
+                        <h5 className="text-xs text-zinc-400 font-arabic-standard mb-2" dir="rtl">المخرجات والتسليمات</h5>
                         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-zinc-300">
                           {selectedProject.deliverables.map((item, idx) => (
                             <li key={idx} className="flex items-center gap-2 bg-white/5 px-3 py-2 rounded-lg border border-white/5">
@@ -194,12 +194,12 @@ export const CategoryDetailModal: React.FC<CategoryDetailModalProps> = ({
                   {/* Sidebar Metadata */}
                   <div className="glass-card p-5 rounded-2xl border border-white/10 space-y-4 h-fit">
                     <div>
-                      <span className="text-[10px] text-zinc-400 uppercase tracking-widest block font-mono">Client</span>
+                      <span className="text-[11px] text-zinc-400 block font-arabic-standard" dir="rtl">العميل</span>
                       <span className="text-sm font-medium text-white">{selectedProject.client}</span>
                     </div>
 
                     <div>
-                      <span className="text-[10px] text-zinc-400 uppercase tracking-widest block font-mono">Design Tools</span>
+                      <span className="text-[11px] text-zinc-400 block font-arabic-standard" dir="rtl">أدوات التصميم</span>
                       <div className="flex flex-wrap gap-1 mt-1">
                         {selectedProject.toolsUsed.map((tool, idx) => (
                           <span key={idx} className="text-xs bg-white/10 text-zinc-200 px-2 py-0.5 rounded">
@@ -212,10 +212,11 @@ export const CategoryDetailModal: React.FC<CategoryDetailModalProps> = ({
                     {/* Request Similar Project CTA */}
                     <button
                       onClick={() => onRequestWork(selectedProject.title)}
-                      className="w-full bg-white text-black hover:bg-zinc-100 py-3 px-4 rounded-xl font-medium text-xs font-sans-montserrat flex items-center justify-center gap-2 transition-all cursor-pointer mt-2"
+                      className="w-full bg-white text-black hover:bg-zinc-100 py-3 px-4 rounded-xl font-medium text-xs font-arabic-standard flex items-center justify-center gap-2 transition-all cursor-pointer mt-2"
+                      dir="rtl"
                     >
                       <Send className="w-3.5 h-3.5" />
-                      Request Similar Design
+                      طلب تصميم مشابه
                     </button>
                   </div>
                 </div>

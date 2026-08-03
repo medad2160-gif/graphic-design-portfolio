@@ -39,28 +39,28 @@ export const TypographyCustomizer: React.FC<TypographyCustomizerProps> = ({
         title="Fine-tune typography"
       >
         <Sliders className="w-3.5 h-3.5" />
-        <span className="hidden sm:inline">Typography Precision</span>
+        <span className="hidden sm:inline font-arabic-standard">تخصيص الخطوط</span>
       </button>
 
       {/* Floating Font Selector Card */}
       {isOpen && (
         <div className="absolute top-11 left-0 w-72 glass-card bg-[#121318]/95 border border-white/20 rounded-2xl p-4 shadow-2xl text-white backdrop-blur-xl animate-in fade-in zoom-in-95 duration-200">
           <div className="flex items-center justify-between mb-3 pb-2 border-b border-white/10">
-            <span className="text-xs font-mono uppercase tracking-wider text-zinc-400 flex items-center gap-1.5">
-              <Type className="w-3.5 h-3.5 text-zinc-300" /> Font Precision Control
+            <span className="text-xs font-arabic-standard text-zinc-300 flex items-center gap-1.5" dir="rtl">
+              <Type className="w-3.5 h-3.5 text-zinc-300" /> التحكم ودقة الخطوط
             </span>
             <button
               onClick={() => setIsOpen(false)}
-              className="text-xs text-zinc-500 hover:text-white cursor-pointer"
+              className="text-xs text-zinc-400 hover:text-white cursor-pointer font-arabic-standard"
             >
-              Close
+              إغلاق
             </button>
           </div>
 
           {/* Arabic Font Choice */}
           <div className="mb-4">
-            <label className="block text-[11px] font-mono text-zinc-400 mb-1.5 uppercase">
-              Arabic Font / الخط العربي
+            <label className="block text-xs font-arabic-standard text-zinc-400 mb-1.5" dir="rtl">
+              الخط العربي الرئيسي
             </label>
             <div className="space-y-1">
               {arabicOptions.map((opt) => (
@@ -80,8 +80,8 @@ export const TypographyCustomizer: React.FC<TypographyCustomizerProps> = ({
 
           {/* English Font Choice */}
           <div>
-            <label className="block text-[11px] font-mono text-zinc-400 mb-1.5 uppercase">
-              English Serif Font / الخط الإنجليزي
+            <label className="block text-xs font-arabic-standard text-zinc-400 mb-1.5" dir="rtl">
+              خط الأحرف اللاتينية
             </label>
             <div className="space-y-1">
               {englishOptions.map((opt) => (

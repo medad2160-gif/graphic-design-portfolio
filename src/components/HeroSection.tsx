@@ -106,14 +106,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           </h2>
         </motion.div>
 
-        {/* Subtitle "GRAPHIC DESIGNER" */}
+        {/* Subtitle "مصمم جرافيك" */}
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.45 }}
-          className="font-sans-montserrat text-[11px] sm:text-xs text-zinc-500 uppercase tracking-[0.45em] sm:tracking-[0.55em] font-light mb-10 sm:mb-12 select-none"
+          className="font-arabic-standard text-xs sm:text-sm text-zinc-400 tracking-[0.3em] font-medium mb-10 sm:mb-12 select-none"
+          dir="rtl"
         >
-          GRAPHIC DESIGNER
+          مصمم جرافيك
         </motion.p>
 
         {/* CTA Buttons Block matching video layout */}

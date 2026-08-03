@@ -41,11 +41,22 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#090a0c] text-white selection:bg-white selection:text-black font-sans-montserrat relative overflow-x-hidden">
-      {/* Global Ambient Background Atmosphere */}
-      <div className="fixed inset-0 pointer-events-none -z-10 overflow-hidden">
-        <div className="absolute top-1/4 -left-32 w-[500px] h-[500px] bg-gradient-to-r from-amber-600/10 via-orange-500/10 to-transparent rounded-full blur-[140px]" />
-        <div className="absolute top-2/3 -right-32 w-[600px] h-[600px] bg-gradient-to-l from-teal-500/10 via-blue-600/10 to-transparent rounded-full blur-[150px]" />
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-[700px] h-[500px] bg-gradient-to-t from-emerald-600/10 via-indigo-600/5 to-transparent rounded-full blur-[160px]" />
+      {/* Global Ambient Background Atmosphere & Luxury Grid Texture */}
+      <div className="fixed inset-0 pointer-events-none -z-10 overflow-hidden select-none">
+        {/* Subtle Architectural Grid Pattern Overlay */}
+        <div className="absolute inset-0 bg-grid-pattern opacity-40 [mask-image:radial-gradient(ellipse_80%_80%_at_50%_50%,#000_70%,transparent_100%)]" />
+        
+        {/* Glowing Top Center Light Beam */}
+        <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[900px] h-[500px] bg-radial from-amber-500/15 via-orange-600/5 to-transparent rounded-full blur-[140px] animate-float-orb" />
+        
+        {/* Floating Ambient Light Spheres */}
+        <div className="absolute top-1/4 -left-40 w-[600px] h-[600px] bg-gradient-to-r from-amber-600/12 via-orange-500/8 to-transparent rounded-full blur-[150px] animate-float-orb" />
+        <div className="absolute top-1/2 -right-40 w-[650px] h-[650px] bg-gradient-to-l from-emerald-500/12 via-teal-600/8 to-transparent rounded-full blur-[160px] animate-float-orb-delayed" />
+        <div className="absolute bottom-1/4 left-10 w-[700px] h-[550px] bg-gradient-to-tr from-indigo-600/10 via-amber-700/8 to-transparent rounded-full blur-[170px] animate-float-orb" />
+        <div className="absolute -bottom-20 right-1/3 w-[800px] h-[500px] bg-radial from-amber-500/10 via-emerald-600/5 to-transparent rounded-full blur-[180px]" />
+
+        {/* Subtle Vignette Edge Framing */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_40%,#090a0c_100%)] opacity-80" />
       </div>
 
       {/* Main Hero Section matching video header */}
